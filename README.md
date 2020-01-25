@@ -20,7 +20,7 @@
 
 [Урок 13](https://romik20.github.io/lesson_13/src/index.html "Верстка в стиле PixelPerfect") - Верстка в стиле PixelPerfect
 
-[Практика. Часть 1](https://romik20.github.io/lesson_14/src/index.html "Практичка часть первая") - Практичка часть первая
+[Практика. Часть 1](https://romik20.github.io/practic1/src/index.html "Практичка часть первая") - Практичка часть первая
 
 [Урок 15]("") - 
 
