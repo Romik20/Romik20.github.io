@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Tahoma", sans-serif;
+}
+
+.header {
+	text-align: center;
+	margin-top: 125px;
+}
+
+.header-text {
+	font-size: 24px;
+	color: #9a9a9a;
+	margin-bottom: 80px;
+	line-height: 1.6em;
+}
+
+.header-text span {
+	display: block;
+	font-weight: 900;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.video,
+.form {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form {
+	border: 5px solid #2727d9;
+	padding: 30px 20px;
+	margin-left: 30px;
+}
+
+.form-text {
+	font-size: 24px;
+	font-weight: 900;
+	color: #333333;
+	margin-bottom: 25px;
+}
+
+.form input {
+	display: block;
+	width: 300px;
+	height: 45px;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #333333;
+	font-size: 18px;
+}
+
+.btn {
+	width: 300px;
+	background-color: #3c3cdd;
+	height: 65px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.feature {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.feature-text {
+	font-size: 24px;
+	color: #333333;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 80px;
+}
+
+.feature-img {
+	margin-bottom: 100px;
+}
+
+.img {
+	display: inline-block;
+	margin: 10px 70px;
+}
+
+.img-text {
+ font-size: 16px;
+ color: #333333;
+ font-weight: 900;
+}
+
+.img span {
+	display: block;
+	font-weight: 900;
+}
+
+.visited {
+	text-align: center;
+}
+
+.visited-text {
+	font-size: 24px;
+	color: #333333;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.face img {
+	margin-left: 25px;
+	margin-bottom: 30px;
+}
+

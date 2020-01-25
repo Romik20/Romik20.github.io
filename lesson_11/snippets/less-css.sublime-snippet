@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+a {
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration:none;
+	}
+}
+button,input,a,textarea {
+	&:focus {
+	outline: none;
+	}
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.less.css</scope> -->
+</snippet>

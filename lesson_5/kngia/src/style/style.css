@@ -1,0 +1,22 @@
+h1,h2,h3,h4 {
+	text-align: center;
+	font-style: italic;
+	border: 2px solid blue;
+}
+
+.text1 {
+	text-decoration: line-through;
+	background-color: red;
+}
+
+.text2 {
+	text-decoration: underline;
+	font-style: italic;
+	background-color: yellow;
+}
+
+.text3,
+.text4 {
+	font-weight: bold;
+	background-color: #ccc;
+}
