@@ -37,3 +37,7 @@
 [Урок 17](https://romik20.github.io/lesson_17/src/index.html "Модальные окна") - Модальные окна
 
 [Практика. Часть 5](https://romik20.github.io/practic5/src/index.html "Вёрстка модального окна на сайте") - Вёрстка модального окна на сайте
+
+[Урок 18]() - 
+
+[Практика. Часть 6](https://romik20.github.io/practic6/src/index.html "Верстка блока с ценами") - Верстка блока с ценами
