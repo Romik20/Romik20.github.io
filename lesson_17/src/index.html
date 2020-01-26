@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Now Amazing Webpage</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Lauch demo modal</button>
+
+<div class="modal" tabindex="-1" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Вы действительно  хотите удалить файл?</h3>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default no" data-dismiss="modal">Нет</button>
+        <button type="button" class="btn btn-primary yes">Да</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+     $(document).ready(function(){
+          $('.btn').on('click', function(event) {
+              event.preventDefault();
+              $('.modal').fadeIn();
+          });
+         $('.close').on('click', function(event) {
+             event.preventDefault();
+             $('.modal').fadeOut();
+         });
+         $('.no').on('click', function(event) {
+             event.preventDefault();
+             $('.modal').fadeOut();
+         });
+         $('.yes').on('click', function(event) {
+             event.preventDefault();
+             $('.modal').fadeOut();
+         });
+        });
+    </script>  
+</body>
+</html>
