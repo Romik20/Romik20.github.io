@@ -46,7 +46,7 @@
 
 [Пракимка. Частт 7](https://romik20.github.io/practic7/src/index.html "Верстка блока с отзывами") - Верстка блока с отзывами
 
-[Урок 20]() -
+[Урок 20](https://romik20.github.io/lesson_20/src/index.html "Видео фон на сайте") - Видео фон на сайте
 
 [Практика. Часть 8](https://romik20.github.io/practic8/src/index.html "Доверстали блок с отзывами") - Доверстали блок с отзывами
 
