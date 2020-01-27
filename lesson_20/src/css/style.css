@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+.section {
+    margin: 0;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.wrap-block {
+    display: table-cell;
+    vertical-align: middle;
+}
