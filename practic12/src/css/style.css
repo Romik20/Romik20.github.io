@@ -1,0 +1,683 @@
+/* Fonts / Шрифты */
+@font-face {
+  font-family: 'ProximaNova _reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Color / Цвет */
+/* Form / Форма */
+.form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 0.1rem solid #dddddd;
+  border-radius: 1rem;
+}
+.form label {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.form .button-form {
+  width: 100%;
+  height: 6.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+/* Basic settings / базовые настройки */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova _reg';
+}
+/* Tipography / Типография */
+section {
+  padding: 10rem 0;
+}
+.section-header_light {
+  color: #ffffff;
+}
+.section-header h4 {
+  font-size: 3.6rem;
+  font-family: 'ProximaNova_bold';
+  margin-bottom: 4rem;
+}
+.section-header p {
+  font-size: 1.8rem;
+  font-family: 'ProximaNova _reg';
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.button {
+  font-family: 'ProximaNova _reg';
+  font-size: 1.2rem;
+  background-color: #f7af01;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  border: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #de9d01;
+}
+/* Main / Главный экран */
+.main {
+  padding: 3rem 0;
+  background: url(../img/main.jpg) center no-repeat;
+  background-size: cover;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  margin-bottom: 4rem;
+  font-family: 'ProximaNova_bold';
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.45;
+  color: #292929;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+  color: #424242;
+}
+.main span {
+  display: inline-block;
+  background-color: #48be15;
+  padding: 3rem 4rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold';
+}
+.main-trigger {
+  display: block;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_bold';
+  margin-top: 3rem;
+}
+.main-form {
+  background-color: #ffffff;
+  padding: 4rem 5rem;
+  text-align: center;
+}
+.main-form-header {
+  font-size: 1.8rem;
+}
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+.main-form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+.main-form label {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.main-form .button-form {
+  width: 100%;
+  height: 6.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.main-form small {
+  display: block;
+}
+.main .text {
+  margin-top: 3rem;
+  text-align: center;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phone-link {
+  font-family: 'ProximaNova_bold';
+  display: inline-block;
+  color: #292929;
+  font-weight: 900;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+}
+.phone-block {
+  text-align: right;
+}
+/* Features / Преимущества */
+.section-header {
+  text-align: center;
+  font-family: 'ProximaNova_bold';
+  font-size: 3.6rem;
+  margin-bottom: 13.5rem;
+}
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-family: 'ProximaNova_bold';
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  font-size: 1.6rem;
+}
+.features-block p a {
+  color: #5ba93c;
+  text-decoration: underline;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+  left: 0;
+}
+.next {
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 70%;
+  right: 0;
+}
+/* Price section / Секция с ценами */
+.price {
+  background: url(../img/price-background.jpg) center;
+}
+.price-header-btn {
+  margin-top: 2rem;
+  height: 6rem;
+}
+.price-button {
+  text-align: right;
+}
+.price-block {
+  padding: 4rem 3rem;
+  min-height: 50rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+.price-block h4 {
+  margin-bottom: 3rem;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_bold';
+}
+.price-block_btn {
+  width: 20rem;
+  height: 6.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.price img {
+  width: 100%;
+  max-width: 30rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.price-tag {
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_bold';
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.price-list {
+  min-height: 16rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+.price-list li:before {
+  content: '';
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url(../img/prices/check.svg) center no-repeat;
+  background-size: cover;
+  margin-right: 1rem;
+}
+/* Feedback / Слайдер и форма */
+.feedback {
+  position: relative;
+  background: url(../img/feedback/feedback-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.feedback-form {
+  margin-top: 6rem;
+  padding: 5rem 10rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.feedback-form h3 {
+  font-size: 2.2rem;
+  font-family: 'ProximaNova_bold';
+  margin-bottom: 2rem;
+}
+.feedback-form label {
+  -webkit-transform: translate(-50%) translateY(6px);
+          transform: translate(-50%) translateY(6px);
+}
+.feedback-form-btn {
+  width: 25.7rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+.feedback-text {
+  padding: 1.7rem;
+  font-size: 1.4rem;
+  border: 2px solid #48be15;
+  margin-top: 2rem;
+  position: relative;
+  line-height: 1.3;
+  color: #292929;
+}
+.feedback-text::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2rem;
+  height: 2rem;
+  width: 2rem;
+  left: 4rem;
+  background-color: #ffffff;
+  border: 2px solid #48be15;
+  border-bottom: #ffffff;
+  border-top-right-radius: 100px;
+}
+.feedback .media {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+.feedback .media span {
+  display: inline-block;
+  line-height: 2;
+}
+.feedback .media h4 {
+  font-family: 'ProximaNova_bold';
+}
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
+.feedback-slider {
+  padding: 5rem 6rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+          box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  background-color: #48be15;
+  border: none;
+}
+.feedback-slider-btn img {
+  width: 50%;
+}
+.feedback-slider strong,
+.feedback-slider p {
+  font-size: 1.6rem;
+}
+.feedback .hand {
+  position: absolute;
+  bottom: 0;
+  left: 6rem;
+  max-width: 30rem;
+}
+/* Sheme work / Схема работы */
+.sheme {
+  background: url(../img/sheme/hand.png) bottom right -20rem no-repeat;
+  background-size: 60rem;
+}
+.sheme-box {
+  min-height: 30rem;
+}
+.sheme-box h3 {
+  font-size: 2.2rem;
+  font-family: 'ProximaNova_bold';
+}
+.sheme-box p {
+  font-size: 1.7rem;
+}
+/* All-inclusive / Всё на 100% включено */
+.all-inclusive .media {
+  min-height: 20rem;
+}
+.all-inclusive .media h4 {
+  font-size: 1.6rem;
+  font-family: 'ProximaNova_bold';
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 1.5rem;
+}
+.all-inclusive .media p {
+  font-size: 1.1rem;
+  font-family: 'ProximaNova_bold';
+}
+.circle {
+  display: inline-block;
+  background-color: #48be15;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.circle-border {
+  padding: 0.2rem;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid #48be15;
+  text-align: center;
+  line-height: 4.2rem;
+  font-size: 2rem;
+  font-family: 'ProximaNova_bold';
+  color: #ffffff;
+  border-radius: 50%;
+}
+/* Concerns / Мы развеем все опасения */
+.problems {
+  position: relative;
+}
+.problems-women {
+  position: absolute;
+  width: 30rem;
+  bottom: 0;
+  left: 50%;
+  margin-left: -19rem;
+}
+.problems-list {
+  border: 4px solid;
+  padding: 2rem;
+  min-height: 35rem;
+}
+.problems-list h4 {
+  font-size: 2.1rem;
+  font-family: 'ProximaNova_bold';
+}
+.problems-list ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 2rem;
+}
+.problems-list ul li {
+  font-family: 'ProximaNova _reg';
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 3.5rem;
+}
+.problems-list ul li:before {
+  content: '';
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+}
+.problems-list_bad {
+  border-color: #e8e8e8;
+}
+.problems-list_bad h4 {
+  opacity: 0.5;
+}
+.problems-list_bad ul li:before {
+  background: url(../img/opasenia/danger.svg) center no-repeat;
+  background-size: 70%;
+}
+.problems-list_good {
+  border-color: #48be15;
+}
+.problems-list_good ul li:before {
+  background: url(../img/opasenia/Forma%201.svg) center no-repeat;
+  background-size: 70%;
+}
+/* Material / Блок с материалами */
+.material {
+  background: url(../img/material/bg-material.jpg) center no-repeat;
+  background-size: cover;
+}
+.material-block {
+  text-align: center;
+}
+.material-block h3 {
+  font-size: 2.2rem;
+  font-family: 'ProximaNova_bold';
+  margin-bottom: 2rem;
+}
+.material-block p {
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  min-height: 4.4rem;
+}
+.material-block a {
+  color: #48be15;
+  text-decoration: underline;
+}
+.material-img img {
+  margin: 0 auto;
+  display: block;
+}
+.material-offer {
+  text-align: center;
+  margin-top: 6rem;
+}
+.material-offer a {
+  color: #48be15;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+/* View / Посмотрите как мы работаем */
+.view {
+  background: url(../img/view/view-bg.jpg) center left 60% no-repeat;
+  background-size: cover;
+}
+.view-small {
+  margin-left: 2.5rem;
+}
+.view-header {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_bold';
+  line-height: 1.5;
+}
+.view p {
+  font-size: 1.9rem;
+  margin-top: 4rem;
+}
+.view-form {
+  background-color: #ffffff;
+  padding: 4rem 5rem;
+}
+.view-form_header {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.view-form .button-form {
+  font-size: 1.4rem;
+}
+/**/
+.additions {
+  color: #ffffff;
+  background: url(../img/additions/additions-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.additions h4 {
+  font-size: 3.6rem;
+  font-family: 'ProximaNova_bold';
+}
+.additions p {
+  font-size: 1.9rem;
+}
+.additions-block {
+  text-align: center;
+}
+.additions-block_text {
+  font-size: 2rem;
+  font-family: 'ProximaNova_bold';
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+  display: block;
+}
+.additions-block button {
+  font-family: 'ProximaNova_bold';
+  font-size: 1.6rem;
+}
+/* Popup / Всплывающее окно */
+.popup {
+  display: none;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  background-color: #ffffff;
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  padding: 4rem 6rem;
+}
+.popup-close {
+  position: absolute;
+  right: -2rem;
+  top: -1.5rem;
+  width: 2rem;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+.popup-form label {
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  background-color: #ffffff;
+  padding: 0.5rem;
+}
+.popup-header {
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'ProximaNova_bold';
+}
+.popup p {
+  font-size: 18px;
+  font-family: 'ProximaNova _reg';
+}
+@media (max-width: 991px) {
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .main {
+    background-position: top right;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+}
